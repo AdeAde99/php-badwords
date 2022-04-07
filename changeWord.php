@@ -36,12 +36,8 @@ $lunghezzaModificato = strlen($testoModificato);
 
 ?>
 <h1>La lunghezza del testo è: <?= $lunghezza;?></h1>
-<h2>Inserisci la parola da sotituire con *** nel testo</h2>
-<form action="changeWord.php" method="get">
-<input type="text" id="parola" name="parola">
-</form>
-<div>La lunghezza del testo è: <?= $testoModificato;?></div>
+<h1>Testo modificato:</h1>
+<div><?= $testoModificato;?></div>
 <h1>La lunghezza del testo modificato è: <?= $lunghezzaModificato;?></h1>
 </body>
 </html>
-
